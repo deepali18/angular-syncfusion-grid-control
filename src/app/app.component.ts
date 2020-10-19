@@ -8,7 +8,9 @@ import { data } from './datasource';
 })
 export class  AppComponent implements OnInit    {
   name = 'Angular ' + VERSION.major;
-
+  public data: object[];
+  
     ngOnInit(): void {
+      this.data= data;
     }
 }
