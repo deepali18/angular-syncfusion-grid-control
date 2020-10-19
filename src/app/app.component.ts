@@ -1,4 +1,5 @@
 import { Component,OnInit, VERSION } from '@angular/core';
+import { data } from './datasource';
 
 @Component({
   selector: 'my-app',
